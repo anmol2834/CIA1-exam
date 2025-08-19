@@ -10,6 +10,7 @@ function page() {
         <div className='btn-container'>
             <Link href="/dashboard/profile" className='buttons'><button className='buttons'>profile</button></Link>
             <Link href="/dashboard/settings" className='buttons'><button className='buttons'>settings</button></Link>
+            <Link href="/dashboard/products" className='buttons'><button className='buttons'>products</button></Link>
         </div>
     </div>
   )
