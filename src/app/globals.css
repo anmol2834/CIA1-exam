@@ -24,6 +24,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
